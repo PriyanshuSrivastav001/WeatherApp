@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+color:white;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather{
+  height: 28rem;
+  width: 24rem;
+  padding: 0.1rem;
+background-image:linear-gradient(45deg,#0b235e,#520beb);
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 0.1rem solid black;
+border-radius: 1rem;
+}
+.input{
+  display: flex;
+  flex-direction: row;
+}
+.main{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding :0.1rem;
+}
+.input input{
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background-image:linear-gradient(45deg,#edeff5,#6d31ee);
+  height: 2.5rem;
+ width: 15rem;
+ color:#041c58;
+
+}
+.input input:hover{
+border: 1px solid white;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: white; */
+  width: 3rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+}
+.icon i{
+  cursor:pointer;
+ font-size: 1.5rem;
+ color:white;
+  }
+  .city h3{
+    color:#d4d5d6;
+}
+  .data{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .data i{
+    margin-right: 0.5rem;
+    font-size: 22px;
+  }
+  .data p{
+    color: #d4d5d6;
+  }
