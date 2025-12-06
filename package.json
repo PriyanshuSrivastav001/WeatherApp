@@ -2,6 +2,8 @@
   "name": "weather",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://priyanshusrivastav001.github.io/WeatherApp",
+
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,8 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
-
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
