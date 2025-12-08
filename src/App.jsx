@@ -35,9 +35,9 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
         description:data.weather[0].main,
       })
        }
-     useEffect(()=>{
-      search("London");
-    },[])
+    //  useEffect(()=>{
+    //   // search("");
+    // },[])
     const handlekeydown=(event)=>{
     if(event.key==="Enter"){
       event.preventDefault();
