@@ -43,7 +43,7 @@ border-radius: 1rem;
   border-radius: 0.5rem;
   border: none;
   outline: none;
-  background-image:linear-gradient(45deg,#edeff5,#6d31ee);
+  /* background-image:linear-gradient(45deg,#edeff5,#6d31ee); */
   height: 2.5rem;
  width: 18rem;
  color:#041c58;
@@ -87,19 +87,20 @@ border: 1px solid white;
       width: 90%;
       background-image: linear-gradient(45deg, green,rgba(178, 255, 142, 0.712));
       font-size: 16px;
+      padding: 0.1rem;
     }
     @media (max-width: 768px) and (orientation: landscape) {
   .weather {
-    width: 60%;
-    height: 90%;
+    width: 90%;
+    height: auto;
     background-image: linear-gradient(45deg,rgb(245, 145, 145),rgb(184, 8, 8));
 font-size: 16px;
   }
-}
+  }
 .icon{
   margin-left:0.2rem ;
   }
   .input input{
-  width:13rem;
+  width:6rem;
 }
   }
