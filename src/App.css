@@ -83,15 +83,17 @@ border: 1px solid white;
   }
  @media (max-width:768px) {
     .weather{
-      height: 25rem;
-      width: 20rem;
-      background-image: linear-gradient(45deg, green,red);
+      height: auto;
+      width: 90%;
+      background-image: linear-gradient(45deg, green,rgba(178, 255, 142, 0.712));
       font-size: 16px;
     }
     @media (max-width: 768px) and (orientation: landscape) {
   .weather {
     width: 60%;
-    height: auto;
+    height: 90%;
+    background-image: linear-gradient(45deg,rgb(245, 145, 145),rgb(184, 8, 8));
+font-size: 16px;
   }
 }
 .icon{
