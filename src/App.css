@@ -84,23 +84,23 @@ border: 1px solid white;
  @media (max-width:768px) {
     .weather{
       height: auto;
-      width: 90%;
+      width: auto;
       background-image: linear-gradient(45deg, green,rgba(178, 255, 142, 0.712));
       font-size: 16px;
-      padding: 0.1rem;
+      padding: 0.5rem;
     }
     @media (max-width: 768px) and (orientation: landscape) {
   .weather {
-    width: 90%;
+    width: auto;
     height: auto;
     background-image: linear-gradient(45deg,rgb(245, 145, 145),rgb(184, 8, 8));
 font-size: 16px;
   }
   }
 .icon{
-  margin-left:0.2rem ;
+  margin-left:0.1rem ;
   }
   .input input{
-  width:6rem;
+  width:99%;
 }
   }
