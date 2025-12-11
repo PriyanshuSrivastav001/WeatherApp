@@ -89,7 +89,7 @@ border: 1px solid white;
       font-size: 16px;
       padding: 0.5rem;
     }
-    @media (max-width: 768px) and (orientation: landscape) {
+    @media (max-width: 1024px) and (orientation: landscape) {
   .weather {
     width: auto;
     height: auto;
