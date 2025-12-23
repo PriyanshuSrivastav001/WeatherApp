@@ -72,7 +72,7 @@ border: 1px solid white;
  color:white;
   }
   .city h3{
-    color:#d4d5d6;
+    color:white;
 }
   .data{
     display: flex;
@@ -84,7 +84,7 @@ border: 1px solid white;
     font-size: 22px;
   }
   .data p{
-    color: #d4d5d6;
+    color: white;
   }
  @media (max-width:768px) {
     .weather{
