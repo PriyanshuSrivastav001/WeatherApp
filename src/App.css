@@ -15,7 +15,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('assets/img.jpg');
   height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
@@ -27,7 +26,7 @@ body {
   height: 28rem;
   width: 24rem;
   padding: 0.1rem;
-  /* background-image:url('src/assets/background.jpg'); */
+  background-image: linear-gradient(45deg,#38369A,#2321ad);
   display: flex;
   flex-direction: column;
   align-items: center;

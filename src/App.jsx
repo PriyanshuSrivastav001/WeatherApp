@@ -3,8 +3,6 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import "@fortawesome/fontawesome-free/css/all.min.css";
-
-
   const Weather=()=>{
     const inputRef=useRef()
     const[WeatherData,setWeatherData]=useState(false);
@@ -25,7 +23,6 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
         setWeatherData(null);
         return ;
       }
-      
       setMessage("");
       setWeatherData({
         windspeed:data.wind.speed,
@@ -35,9 +32,6 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
         description:data.weather[0].main,
       })
        }
-    //  useEffect(()=>{
-    //   // search("");
-    // },[])
     const handlekeydown=(event)=>{
     if(event.key==="Enter"){
       event.preventDefault();
